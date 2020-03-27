@@ -1,0 +1,9 @@
+<h1>Thanks for signing. Long live the Späti!</h1>
+<img src="{{signer.signature}}" alt="signature">
+<a href="/signers"><h2>See all {{numSigners}} signers</h2></a>
+<a href="/profile/edit"><h2>Edit your profile</h2></a>
+
+<form method="POST">
+    <button>Delete your signature</button>
+    <input type="hidden" name="_csrf" value="{{csrfToken}}">
+</form>

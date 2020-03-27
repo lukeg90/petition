@@ -1,0 +1,14 @@
+<h1>Please log in</h1>
+
+<form method="POST">
+    <input type="email" id="email" name="email" required>
+    <label for="email">Email Address</label><br>
+    <input type="password" id="password" name="password" required>
+    <label for="Password">Password</label><br>
+    <input type="hidden" name="_csrf" value="{{csrfToken}}">
+    <button class="submit">Login</button>
+</form>
+
+<h3>Don't have an account?</h3>
+<button class="register">Register</button>
+

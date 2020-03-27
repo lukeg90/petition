@@ -1,0 +1,18 @@
+<h1>We believe that Spätis in Berlin should be legally allowed to operate on Sunday. Sign our petition to protect Späti culture!</h1>
+
+<form method="POST">
+    <input type="hidden" id="signature" name="signature">
+    <label for="signature">Sign Here</label><br>
+    <input type="hidden" name="_csrf" value="{{csrfToken}}">
+    <canvas id="sign" width="500" height="100"></canvas><br>
+    <canvas id="blank" width="500" height="100" style="display:none"></canvas>
+    <button class="submit">Submit</button>
+</form>
+<button class="submit" id="clear">Clear signature</button>
+
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous">
+    </script>
+<script src="/petition.js"></script>

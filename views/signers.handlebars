@@ -1,0 +1,9 @@
+<h1>We the undersigned request a municipal bill to be passed by the city of Berlin allowing all Spätis to operate on Sunday without penalty.</h1>
+
+{{#each signers}}
+    {{#if url}}
+        <h3><a href={{this.url}}>{{this.first}} {{this.last}}</a> {{this.age}} <a href="/signers/{{this.urlCity}}">{{this.cityName}}</a></h3>
+    {{else}}
+        <h3>{{this.first}} {{this.last}} {{this.age}} <a href="/signers/{{this.urlCity}}">{{this.cityName}}</a></h3>
+    {{/if}}
+{{/each}}

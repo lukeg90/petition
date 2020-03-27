@@ -1,0 +1,9 @@
+<h1>We, the good citizens of {{ city }}, hereby demand that the city of Berlin allow Spätis to remain open on Sunday. </h1>
+
+{{#each signers}}
+{{#if this.url}}
+    <h3><a href="{{this.url}}">{{this.first}} {{this.last}} </a>{{this.age}}</h3>
+{{else}}
+    <h3>{{this.first}} {{this.last}} {{this.age}}</h3>
+{{/if}}
+{{/each}}

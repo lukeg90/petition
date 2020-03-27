@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    position: absolute;
+    right: 10px;
+}
+
+header p {
+    display: inline-block;
+    margin: 20px 10px 10px 10px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+header p:hover {
+    cursor: pointer;
+    color: cornsilk;
+}
+
+body {
+    font-family: "Merriweather", serif;
+    color: black;
+}
+
+h1 {
+    margin: 100px 50px 30px 50px;
+}
+
+h2 {
+    margin: 20px;
+}
+
+h3 {
+    margin: 20px;
+}
+
+.cover {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 70vw;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin: 20px;
+}
+
+button {
+    height: 40px;
+    width: 200px;
+    font-size: 17px;
+    border-radius: 5px;
+    background: teal;
+    color: black;
+    font-weight: bolder;
+    opacity: 0.9;
+}
+
+button:hover {
+    cursor: pointer;
+    background: cornsilk;
+    color: teal;
+}
+
+canvas {
+    border: 2px dotted black;
+}
+
+canvas:hover {
+    cursor: crosshair;
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+label {
+    font-weight: bolder;
+}
+
+.error {
+    color: red;
+}
