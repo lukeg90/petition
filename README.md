@@ -18,5 +18,6 @@
   * jQuery
   * PostgresSQL
 
+![petition-gif](https://github.com/lukeg90/petition/blob/master/petition-capture.gif)
 
 
