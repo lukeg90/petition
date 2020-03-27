@@ -1,6 +1,5 @@
-# petition
-
-Spiced Academy Petition Project
-
+# Berlin Späti Petition
 
 [Deployed Version](https://spati-petition.herokuapp.com/)
+
+
