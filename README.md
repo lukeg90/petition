@@ -1,6 +1,6 @@
 # Berlin Späti Petition
 
-[Deployed Version](https://spati-petition.herokuapp.com/)
+##[Heroku App Link](https://spati-petition.herokuapp.com/)
 
 ## Key Features
 
